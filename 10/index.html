@@ -6,21 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation</title>
     <style>
-.nav
+        .navbar {
+            background-color: black;
+            border-radius: 7px;
+            padding: 3px;
+        }
+
+        .navbar li {
+            float: left;
+            /* background-color: red; */
+            color: white;
+            list-style: none;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+            margin-bottom: 2rem;
+            display: flex;
+
+            justify-content: space-around;
+
+
+        }
+
+     
+        .navbar input {
+            padding: 3px 17px;
+            border: 2px solid black;
+            border-radius: 3px;
+            margin-bottom: .8rem;
+            margin-left: 10px;
+            width: 129px;
+            width: 129px;
+
+        }
+
+     
+        /* .navbar .search{
+            display: flex;
+           align-self: flex-end;
+        } */
     </style>
 </head>
 
 <body>
-<header>
-    <nav class="navbar">
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact Us</li>
-        </ul>
-    </nav>
-</header>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search this website">
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
