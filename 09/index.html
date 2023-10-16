@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo selectors</title>
     <style>
-        .conatiner {
+        .container {
             border: 2px solid red;
             background-color: rgb(223, 245, 201);
             padding: 34px;
@@ -14,6 +14,29 @@
             width: 656px;
             margin: 15px;
         }
+
+        .btn {
+            background-color: crimson;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            border-radius: 2px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            color: white;
+            background-color: aqua;
+        }
+
+        a:visited {
+            color: yellow;
+        }
+
     </style>
 </head>
 
@@ -23,8 +46,8 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi dolor sint inventore distinctio, sunt
             ullam, eos ea architecto enim deserunt dolore beatae! Deleniti ratione excepturi provident perferendis
             ullam. Natus, ullam! Quos assumenda earum libero!</p>
-            <a href=""  class="btn">Read more</a>
-            <button class="btn">Contact Us</button>
+        <a href="https://facebook.com" class="btn">Read more</a>
+        <button class="btn">Contact Us</button>
     </div>
 </body>
 
