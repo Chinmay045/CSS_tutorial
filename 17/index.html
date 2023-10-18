@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .box{
+            background-color: red;
+            color: white;
+            font-size: 22px;
+            text-align: center;
+            display: none;
+        }
+
+        @media (min-width:768px){
+            #box1{
+display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Hey How are you ?</div>
+    <div class="box" id="box2">Hey How are you ?</div>
+    <div class="box" id="box3">Hey How are you ?</div>
+    <div class="box" id="box4">Hey How are you ?</div>
+</body>
+</html>
