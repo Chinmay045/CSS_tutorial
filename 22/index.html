@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .box{
+        :root {
+            --primary-color: violet;
 
-            --box-color:violet;
+        }
+
+        .box {
             width: 200px;
             height: 200px;
             background-color: var(--box-color);
@@ -15,13 +19,14 @@
             margin: 2px 9px;
             box-shadow: 3px 3px blue;
         }
-        .container{
-            --box-color:violet;
+
+        .container {
             display: flex;
             background-color: var(--box-color);
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="box"></div>
@@ -29,4 +34,5 @@
         <div class="box"></div>
     </div>
 </body>
+
 </html>
