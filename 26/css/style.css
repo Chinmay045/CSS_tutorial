@@ -20,3 +20,7 @@
     height: 59px;
     margin: 3px 6px;
 }
+
+ul{
+    display: flex;
+}
