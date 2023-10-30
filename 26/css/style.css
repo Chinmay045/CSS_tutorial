@@ -110,7 +110,10 @@ ul{
     border: 2px solid brown;
     border-radius: 1.8rem;
     margin-left: 1rem;
+}
 
+#services .box p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #services .box img{
